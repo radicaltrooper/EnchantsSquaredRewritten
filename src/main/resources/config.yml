@@ -28,11 +28,11 @@ enchantment_table_rolls: 3
 enchantment_extra_cost: 2
 
 # Disable certain core features of the plugin in case they severely clash with other plugins, or you just don't want to use them.
-disable_anvil: false # Disables custom enchantments from being able to be combined in an anvil
-disable_enchanting: false # Disables custom enchantments from appearing in the enchantment table
-disable_trading: false # Disables villagers from trading custom enchantments
+disable_anvil: true # Disables custom enchantments from being able to be combined in an anvil
+disable_enchanting: true # Disables custom enchantments from appearing in the enchantment table
+disable_trading: true # Disables villagers from trading custom enchantments
 disable_fishing: false # Disables enchanted books obtained by fishing from receiving custom enchants
-disable_dungeonlootgen: false  # Disables enchanted books obtained from dungeon generated chests from receiving custom enchants
+disable_dungeonlootgen: true  # Disables enchanted books obtained from dungeon generated chests from receiving custom enchants
 
 # The maximum amount of enchantments you're allowed to put on a tool
 max_enchants: 5
